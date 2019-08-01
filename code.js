@@ -16,7 +16,7 @@ figma.ui.onmessage = msg => {
         for (let i = 0; i < msg.count; i++) {
             const ellipse = figma.createEllipse();
             ellipse.x = i * 550;
-            ellipse.fills = [{ type: 'SOLID', color: { r: 1, g: 0.5, b: 0 }, opacity: 0.85 }];
+            ellipse.fills = [{ type: 'SOLID', color: { r: 0.79, g: 0.69, b: 0.97 }, opacity: 0.85 }];
             figma.currentPage.appendChild(ellipse);
             nodes.push(ellipse);
         }
